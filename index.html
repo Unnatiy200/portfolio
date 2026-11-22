@@ -370,25 +370,25 @@
 
 <section class="block" id="projects">
   <h2>Projects</h2>
-  <div class="kicker">a running list — more get added as I ship them</div>
+  <div class="kicker">A running list — more get added as I ship them</div>
   <div id="projectList"></div>
 </section>
 
 <section class="block" id="skills">
   <h2>Skills</h2>
-  <div class="kicker">tools I reach for, grouped by what they're for</div>
+  <div class="kicker">Tools I reach for, grouped by what they're for</div>
   <div id="skillList"></div>
 </section>
 
 <section class="block" id="videos">
   <h2>Videos</h2>
-  <div class="kicker">a few things I've explained on camera — not my whole channel, just these</div>
+  <div class="kicker">A few things I've explained on camera — not my whole channel, just these</div>
   <div id="videoList"></div>
 </section>
 
 <section class="block" id="achievements">
   <h2>Achievements</h2>
-  <div class="kicker">competitions, programs, recognitions</div>
+  <div class="kicker">Competitions, Programs, Recognitions</div>
   <div id="achList"></div>
 </section>
 
@@ -431,8 +431,11 @@ const PROJECTS = [
     title: "AI Recruiter Voice Agent",
     stack: ["Python", "TensorFlow", "NLP", "Speech Recognition", "LLM Prompt Engineering"],
     bullets: [
-      "Built an AI interview system that generates personalised questions from LLM-based resume parsing, with real-time speech recognition and sentiment analysis across 5 dimensions.",
-      "Fine-tuned an offline speech model reaching ~85% transcription accuracy with no external API dependency."
+      "Developed a modular voice-interview pipeline using Flask and Whisper-based Speech-to-Text, integrating CardiffNLP RoBERTa for 3-class
+       sentiment classification (Positive, Neutral, Negative) of candidate responses",
+      "Integrated Gemini 2.5 Flash for resume/JD-based interview question generation and LLM-driven feedback, implemented rule-based content
+        and clarity scoring, PDF skill matching, and Text-to-Speech for automated interview evaluation.
+"
     ],
     link: "https://github.com/Unnatiy200/RECRUITER_VOICE_AGENT",
     architecture: "Resume ──▶ LLM ──▶ tailored interview questions\n                              │\n                              ▼\nCandidate speech ──▶ offline ASR (~85% accuracy)\n                              │\n                              ▼\n                 Sentiment analysis (5 dimensions)\n                              │\n                              ▼\n                     Interview summary report"
@@ -440,20 +443,20 @@ const PROJECTS = [
 ];
 
 const SKILLS = [
-  { group: "Programming", items: ["Python", "SQL"] },
-  { group: "ML & Data Science", items: ["EDA", "Feature Engineering", "Scikit-learn", "XGBoost", "TensorFlow", "PyTorch"] },
+  { group: "Programming and Data Manipulation", items: ["Python (Pandas Numpy)", "SQL"] },
+  { group: "ML & Data Science", items: ["Exploratory Data Analysis (EDA)", "Feature Engineering", "Scikit-learn", "XGBoost", "TensorFlow", "PyTorch"] },
   { group: "Generative AI", items: ["LLMs", "Prompt Engineering", "RAG", "Agentic AI"] },
-  { group: "Tools", items: ["Git", "GitHub", "Pandas", "NumPy", "Power BI", "Streamlit", "FastAPI"] }
+  { group: "Deployment, MLOps & BI", items: ["Git/GitHub", "Power BI", "Streamlit", "FastAPI"] }
 ];
 
-/* Add videos here — paste a normal YouTube watch/share URL, the embed is generated automatically.
+/* Add videos here — Paste a normal YouTube watch/share URL, the embed is generated automatically.
    Only the videos listed here are ever visible on the site; the rest of your channel isn't linked. */
 const VIDEOS = [
   // { url: "https://youtu.be/XXXXXXXXXXX", title: "Building the recruiter voice agent", desc: "Walkthrough of the ASR + sentiment pipeline." },
 ];
 
 const ACHIEVEMENTS = [
-  { text: "Kaggle: House Prices — Advanced Regression Techniques — Top 30% (Rank 1,186/3,984), RMSLE 0.1283", link: "https://github.com/Unnatiy200/advanced_house_price_prediction" },
+  { text: "Kaggle: House Prices Prediction — Advanced Regression Techniques — Top 30% (Rank- 1,186/3,984), RMSE- 0.1283", link: "https://github.com/Unnatiy200/advanced_house_price_prediction" },
   { text: "Selected for Amazon ML Summer School 2026, advanced to the final assessment stage.", link: null },
   { text: "Smart India Hackathon 2024 — selected for national entry.", link: null }
 ];
