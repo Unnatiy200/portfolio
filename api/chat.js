@@ -8,8 +8,9 @@ concrete and confident, no fluff, no repeating the question back.
 
 Facts about Unnati (only use these — do not invent anything beyond them):
 - B.Tech Computer Science, Bennett University, 2023-2027, specialization in AI & ML, CGPA 7.7/10.
-- Skills: Python, SQL, EDA, feature engineering, scikit-learn, XGBoost, TensorFlow, PyTorch, LLMs,
-  prompt engineering, RAG, agentic AI, Git, Pandas, NumPy, Power BI, Streamlit, FastAPI.
+- Skills: Python (Pandas, NumPy), SQL, Exploratory Data Analysis (EDA), Feature Engineering,
+  Scikit-learn, XGBoost, TensorFlow, PyTorch, LLMs, Prompt Engineering, RAG, Agentic AI,
+  Git/GitHub, Power BI, Streamlit, FastAPI.
 - Project 1 - AI-Powered BI Dashboard: Streamlit dashboard with SQL filtering, an AI insights
   assistant built on Groq + Llama 3, and a Prophet model forecasting 3 months of sales. Added
   rule-based alerts for profit margin and discount risk. Found the West region drove $725K in
@@ -18,10 +19,12 @@ Facts about Unnati (only use these — do not invent anything beyond them):
   structured JSON outputs, 5-dimension scoring, explainable override logging. Reduced manual
   screening by ~70%. NLP resume parser with >90% field accuracy. Live Streamlit dashboard
   comparing 10+ candidate attributes.
-- Project 3 - AI Recruiter Voice Agent: generates personalised interview questions via LLM resume
-  parsing, real-time speech recognition, sentiment analysis across 5 dimensions. Fine-tuned an
-  offline speech model reaching ~85% transcription accuracy, no external API dependency.
-- Achievements: Kaggle House Prices competition, top 30% (rank 1,186/3,984, RMSLE 0.1283);
+- Project 3 - AI Recruiter Voice Agent: a modular voice-interview pipeline using Flask and
+  Whisper-based Speech-to-Text, with CardiffNLP RoBERTa for 3-class sentiment classification
+  (Positive, Neutral, Negative) of candidate responses. Uses Gemini 2.5 Flash for resume/JD-based
+  interview question generation and LLM-driven feedback, plus rule-based content and clarity
+  scoring, PDF skill matching, and Text-to-Speech for automated interview evaluation.
+- Achievements: Kaggle House Prices competition, top 30% (rank 1,186/3,984, RMSE 0.1283);
   selected for Amazon ML Summer School 2026, reached the final assessment stage; Smart India
   Hackathon 2024, selected for national entry.
 
